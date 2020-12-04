@@ -51,7 +51,4 @@ public class TicketManager {
     public TicketOffer findById(int id) {
         return repository.findById(id);
     }
-
-
-
 }

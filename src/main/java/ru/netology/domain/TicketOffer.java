@@ -19,6 +19,17 @@ public class TicketOffer implements Comparable<TicketOffer> {
     public int compareTo(TicketOffer comparePrice) {
         return price - comparePrice.price;
     }
+
+    @Override
+    public String toString() {
+        return "TicketOffer{" +
+                "id=" + id +
+                ", price=" + price +
+                ", from='" + from + '\'' +
+                ", to='" + to + '\'' +
+                ", timeMin=" + timeMin +
+                '}';
+    }
 }
 
 
